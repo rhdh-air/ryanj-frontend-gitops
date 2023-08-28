@@ -1,0 +1,15 @@
+app:
+  name: ryanj-poi-map-app
+  namespace: ryanj
+  cluster: .apps.r9m8ttn9.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-air/ryanj-frontend
+  org: rhdh-air
+  name: ryanj-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ryanj/poi-map-app
+  tag: latest
